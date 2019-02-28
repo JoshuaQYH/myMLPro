@@ -19,9 +19,10 @@ In this project, I'm required to develop a linear model to finish the task -- PM
 ## Goal
 * master the data processing method with numpy and pandas
 * extract the feature and label
-* train model with gradient descent method
+* train linear regression model with gradient descent method
+* visualize the data and show the correlation.
   
 
 ## Result
-I design a linear regression class based on gradient descent method(GD). But it encoutered Nan data in the train, it could not fit normal.  
+I design a linear regression class based on gradient descent method(GD). But it encoutered Nan data in train, it could not fit normal.  
 ![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/20190228002703.png)
