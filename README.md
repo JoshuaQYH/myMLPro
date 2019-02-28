@@ -4,8 +4,9 @@
 > 存放格式：
 >
 > 1. 文件夹按项目划分；
-> 2. 每次添加新项目需要在下文用大标题区分，并简要说明备注；
+> 2. 每次添加新项目需要在下文用大标题区分，并简要说明，如简介，学习目的，模型结果；
 > 3. 每次添加或者更新Readme时，加上日期，如 2019-02-26 14 : 38
+> 4. 尽量用英语表达；
 
 
 
@@ -24,5 +25,6 @@ In this project, I'm required to develop a linear model to finish the task -- PM
   
 
 ## Result
-I design a linear regression class based on gradient descent method(GD). But it encoutered Nan data in train, it could not fit normal.  
+I design a linear regression class based on gradient descent method(GD). But it encoutered Nan data in train, it could not fit normal. 
+Finaly, I use sklearn.linear_regression to train and predict. Maybe I think I have to check the sklearn source code. 
 ![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/20190228002703.png)
