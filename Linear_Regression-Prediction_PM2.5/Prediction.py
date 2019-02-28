@@ -120,11 +120,24 @@ linear_classifer = linearRegression(train_data.columns.size * 9, 1000, 1)
 #print(train_label_y)
 
 x_train, x_test, y_train, y_test = train_test_split(train_data_X, train_label_y, test_size = 0.3)
-#classifier = LinearRegression()
-#classifier.fit(x_train, y_train)
-#predict_y = classifier.predict(x_test)
-#print(len(predict_y))
-#print(len(y_test))
+
+# use the sklearn's linear regression 
+classifier = LinearRegression()
+classifier.fit(x_train, y_train)
+predict_y = classifier.predict(x_test)
+
+# predict the test data and print out score
+result_file = open("result.csv", 'w')
+result_file.write("id,PM2.5,\n")
+for i in range(len(test_data_X)):
+    result_file.write(str(i))
+    result_file.write(',')
+    result_file.write(str(classifier.predict(test_data_X[i].reshape(1,-1))[0]))
+    result_file.write('\n')
+result_file.close()
+
+# Here are the model by myself.
+"""
 print("start to train!")
 linear_classifer.fit(x_train, y_train)
 print('train done!')
@@ -140,8 +153,7 @@ for i in range(len(test_data_X)):
     result_file.write(str(linear_classifer.predict(test_data_X[i])))
     result_file.write('\n')
 result_file.close()
-
-
+"""
 
 
 
