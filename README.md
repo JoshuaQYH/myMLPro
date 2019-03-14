@@ -54,9 +54,12 @@ With the monte carlo method, I calculate the value of pi/4, single and double in
 
 
 
-## Titanic In Kaggle 
+## Titanic in Kaggle 
 
->  11th~12th, March, 2019
+>  11st~12nd, March, 2019
 
 This is the first time to join competition in Kaggle. I just simply master the main process of making feature engineer and use the stacking method to run some model, such as random forest classifier, adaboost, SVM ,XGBoost and so on. Finally, I got 0.7767 score and ranked 5554/10144.
 
+## MNIST Digit in Kaggle
+> 13rd~14th, March, 2019
+In this part, I learn how to implement a convolutional network model and master the loader of dataset in pytorch. And I trained the model by adam method and learning-rate-schedule. 
