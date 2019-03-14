@@ -62,4 +62,9 @@ This is the first time to join competition in Kaggle. I just simply master the m
 
 ## MNIST Digit in Kaggle
 > 13rd~14th, March, 2019
-In this part, I learn how to implement a convolutional network model and master the loader of dataset in pytorch. And I trained the model by adam method and learning-rate-schedule. 
+
+In this part, I learn: 
+1. how to implement a convolutional network model
+2. master the loader of dataset in pytorch. 
+3. train the model by adam method and learning-rate-schedule. 
+4. test the model 
