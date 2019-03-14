@@ -68,3 +68,8 @@ In this part, I learn:
 2. master the loader of dataset in pytorch. 
 3. train the model by adam method and learning-rate-schedule. 
 4. test the model 
+
+## Learn Ensemble Model
+> 15th, March, 2019 
+Simply got some quick tricks such as stacking, blending, subensemble for building an ensemble model by the library **mlens**(pip install mlens).
+
