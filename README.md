@@ -1,9 +1,12 @@
 # myMLPro
 
 > Recording Format
-> Record the commit date of subproject
-> The simple description of subproject
-> Descending order of time.
+> 
+> * Record the commit date of subproject
+> 
+> * The simple description of subproject
+> 
+> * Descending order of time.
 
 ------
 
