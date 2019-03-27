@@ -1,15 +1,63 @@
 # myMLPro
 
-> 作为一只机器学习小白，这里存放个人实战项目（toy-project）。主要目的是整理一下使用过的模型和一  > 些小念头
->
-> 存放格式：
->
-> 1. 文件夹按项目划分；
-> 2. 每次添加新项目需要在下文用大标题区分，并简要说明，如简介，学习目的，模型结果；
-> 3. 每次添加或者更新Readme时，加上日期，如 2019-02-26 14 : 38
-> 4. 尽量用英语表达；
-> 5. 若项目较小，直接注明项目概要 + 日期即可。
+> Recording Format
+> Record the commit date of subproject
+> The simple description of subproject
+> Descending order of time.
 
+------
+
+## Linear model for house price prediction
+
+> 27th, March, 2019
+
+Add a linear model application (my data mining hw2), which is a 3 variables and 2 features model. I adopt **BGD and SGD ** method to find optimal parameters of model.
+
+------- 
+
+## Learn Ensemble Model
+> 15th, March, 2019 
+
+Simply got some quick tricks such as stacking, blending, subensemble for building an ensemble model by the library **mlens**(pip install mlens).
+
+-------
+
+## MNIST Digit in Kaggle
+> 13rd~14th, March, 2019
+
+In this part, I learn: 
+1. how to implement a convolutional network model
+2. master the loader of dataset in pytorch. 
+3. train the model by adam method and learning-rate-schedule. 
+4. test the model 
+
+-----
+
+## Titanic in Kaggle 
+
+>  11st~12nd, March, 2019
+
+This is the first time to join competition in Kaggle. I just simply master the main process of making feature engineer and use the stacking method to run some model, such as random forest classifier, adaboost, SVM ,XGBoost and so on. Finally, I got 0.7767 score and ranked 5554/10144.
+
+------
+
+## Monte carlo method. On 11st, March, 2019
+
+With the monte carlo method, I calculate the value of pi/4, single and double integral. 
+![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/img/20190312001417.png)
+![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/img/20190312001458.png)
+![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/img/20190312001518.png)
+
+----
+
+## Predict the house price in Boston with AdaBoost.  
+> On 8th, March, 2019
+
+------
+
+## Some tutorials on pytorch's official site. 
+> On 5th, March, 2019
+-------------
 
 
 ## Linear Model in PM2.5 Prediction
@@ -32,50 +80,3 @@ In this project, I'm required to develop a linear model to finish the task -- PM
 I design a linear regression class based on gradient descent method(GD). But it encoutered Nan data in train, it could not fit normal. 
 Finaly, I use sklearn.linear_regression to train and predict. Maybe I think I have to check the sklearn source code. 
 ![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/20190228002703.png)
-
-
-
-------
-
-## Some tutorials on pytorch's official site. On 5th, March, 2019
-
-------
-
-## Predict the house price in Boston with AdaBoost.  On 8th, March, 2019
-
-------
-
-## Monte carlo method. On 11st, March, 2019
-
-With the monte carlo method, I calculate the value of pi/4, single and double integral. 
-![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/img/20190312001417.png)
-![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/img/20190312001458.png)
-![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/img/20190312001518.png)
-
-
-
-## Titanic in Kaggle 
-
->  11st~12nd, March, 2019
-
-This is the first time to join competition in Kaggle. I just simply master the main process of making feature engineer and use the stacking method to run some model, such as random forest classifier, adaboost, SVM ,XGBoost and so on. Finally, I got 0.7767 score and ranked 5554/10144.
-
-## MNIST Digit in Kaggle
-> 13rd~14th, March, 2019
-
-In this part, I learn: 
-1. how to implement a convolutional network model
-2. master the loader of dataset in pytorch. 
-3. train the model by adam method and learning-rate-schedule. 
-4. test the model 
-
-## Learn Ensemble Model
-> 15th, March, 2019 
-
-Simply got some quick tricks such as stacking, blending, subensemble for building an ensemble model by the library **mlens**(pip install mlens).
-
-## Linear model for house price prediction
-
-> 27th, March, 2019
-
-Add a linear model application, which is a 3 variables and 2 features model. I adopt **BGD and SGD ** method to find optimal parameters of model.
