@@ -71,5 +71,11 @@ In this part, I learn:
 
 ## Learn Ensemble Model
 > 15th, March, 2019 
+
 Simply got some quick tricks such as stacking, blending, subensemble for building an ensemble model by the library **mlens**(pip install mlens).
 
+## Linear model for house price prediction
+
+> 27th, March, 2019
+
+Add a linear model application, which is a 3 variables and 2 features model. I adopt **BGD and SGD ** method to find optimal parameters of model.

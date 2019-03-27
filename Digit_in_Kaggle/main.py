@@ -102,8 +102,6 @@ def prediciton(data_loader):
     test_pred = torch.LongTensor()
     for i, data in enumerate(data_loader):
         data = Variable(data)
-        if torch.cuda.is_available():
-            data = data.cuda()
         output = ConvModel(data.reshape(-1, 1, 28, 28))
         pred = output.data.max(1, keepdim=True)[1]
         test_pred = torch.cat((test_pred, pred), dim=0)
